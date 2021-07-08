@@ -6,7 +6,7 @@
 
 A full Real-time Chat Application with Social Authentication and dedicated chat API's/sockets.
 
-### Learning: 
+### 🌱 Learning: 
  - How to build a react chat app using [Chat Engine](https://chatengine.io)
  - Firebase
    - Firebase Social Login

@@ -65,6 +65,7 @@
     text-align: center;
     background-color: white;
     border-radius: 22px;
+    box-shadow: 0px 5px 15px #54545446;
   }
   
   .login-button {
@@ -73,17 +74,24 @@
     padding: 12px;
     border-radius: 8px;
     display: inline-block;
+    width: 12rem;
   }
   
-  .facebook {
+  .login-button.facebook {
     background-color: #3b5998;
   }
+  .login-button.facebook:hover {
+    box-shadow: 0 0 20px #5e8bee;
+  }
   
-  .google {
+  .login-button.google {
     background-color: #4285f4;
     color: white;
   }
-  
+  .login-button.google:hover{
+    box-shadow: 0 0 20px #1b86f9;
+  }
+
   #loading-container {
     position: absolute;
     top: 0px;
