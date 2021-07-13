@@ -6,6 +6,8 @@ import { auth } from '../firebase';
 import { useAuth } from '../contexts/AuthContext';
 import axios from 'axios';
 
+import logoAlternative from '../img/winged hat outlined.png';
+
 const Chats = () => {
 
     const history = useHistory();
@@ -65,17 +67,19 @@ const Chats = () => {
 
     // If no user or currently loading...
     if(!user || loading) {
-        return 'Loading...' ;
+        return (
+        <p class="loading-text-major">Loading...</p>
+        );
     }
 
     return (
         <div className="chats-page">
             <div className="nav-bar">
                 <div className="logo-tab">
-                    Hermès
+                    <img className="logo-icon" src={logoAlternative}></img>
                 </div>
                 <div onClick={handleLogout} className="logout-tab">
-                    Logout
+                    Log out
                 </div>
             </div>
 

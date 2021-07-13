@@ -83,6 +83,14 @@
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
 }
+
+.loading-text-major {
+  font-size: 2rem;
+  opacity: 0.33;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
   
 
 /* Chats page */
@@ -113,12 +121,26 @@
   color: white;
 }
 
-.logout-tab {
+.chats-page .logo-icon {
+  display: block;
   position: absolute;
-  top: 22px;
-  right: 22px;
-  color: white;
+  left: 0.5rem;
+  top: -0.5rem;
+  width: 2em;
+}
+
+.logout-tab {
   cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: black;
+  background-color: rgb(248, 248, 248);
+  padding: 0.25rem 0.7rem 0.5rem 0.75rem;
+  border-radius: 8px;
+  
 }
 
 ::-webkit-scrollbar {
@@ -126,12 +148,15 @@
   background: transparent; /* Optional: just make scrollbar invisible */
 }
 
+.ce-settings {
+  transition: 100ms smooth;
+}
+
 /* Main avatar */
 .ce-chat-avatars-row .ce-avatar {
   display: block;
   transform: scale(1.5);
 }
-
 .ce-text-input {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
@@ -141,7 +166,6 @@
 .ce-person-container .ce-avatar-status {
   transform: scale(1.4);
 }
-
 .ce-person-container .ce-person-text {
   margin-left: 0.5rem;
 }
