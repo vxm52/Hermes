@@ -1,0 +1,28 @@
+
+/* If the viewport is <= 422px */
+@media only screen and (max-width: 422px) {
+    #login-card {
+        top: calc(50vh - 204px);
+        left: 0;
+        width: 100vw;
+        transform: scale(1);
+    }
+}
+
+
+/* If the viewport is <= 920px */
+@media only screen and (max-width: 920px) {
+    #login-card {
+        transform: scale(1);
+    }
+}
+
+
+/* If the viewport is <= 1025 (Small laptop screens) */
+@media only screen and (max-width: 1025px) {
+    .ce-person-container .ce-person-text {
+        transform: scale(0.9);
+        margin-left: 0rem;
+        padding-left: 2.75rem !important;
+      }    
+}

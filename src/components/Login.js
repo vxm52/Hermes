@@ -4,11 +4,14 @@ import "firebase/app";
 
 import { auth } from '../firebase';
 import firebase from 'firebase/app';
+import logo from '../img/winged hat.png';
 
 const Login = () => {
     return (
         <div id="login-page">
             <div id="login-card">
+
+                <img className="logo-icon" src={logo}/>
                 <h2>Welcome to Hermès!</h2>
                 
                 <div
