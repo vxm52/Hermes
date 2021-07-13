@@ -1,4 +1,12 @@
 
+
+/* If the viewport HEIGHT is <= 835 (Wide screen laptops) */
+@media only screen and (max-height: 835px) {
+    #login-card {
+        transform: scale(1.2);
+    }    
+}
+
 /* If the viewport is <= 422px */
 @media only screen and (max-width: 422px) {
     #login-card {
