@@ -4,7 +4,14 @@
 
 ## Introduction
 
-A full Real-time Chat Application with Social Authentication and dedicated chat API's/sockets.
+A full real-time chat application with social authentication and dedicated chat API's/sockets.
+
+Deployed on Netlify. 
+
+Visit: https://hermeschat.netlify.app/
+
+<br />
+
 
 ### 🌱 Learning: 
  - How to build a react chat app using [Chat Engine](https://chatengine.io)
@@ -14,8 +21,10 @@ A full Real-time Chat Application with Social Authentication and dedicated chat 
    - Firebase Facebook Login
  - React Context API
  - REST API's
- - Environment variables, 
+ - Environment variables
  - ...and more!
+
+<br />
 
 
 ### Bonus - E-mail notifications
