@@ -12,7 +12,7 @@ const Login = () => {
             <div id="login-card">
 
                 <img className="logo-icon" src={logo}/>
-                <h2>Welcome to Hermès!</h2>
+                <h2>Welcome to Hermes!</h2>
                 
                 <div
                     className="login-button google"
