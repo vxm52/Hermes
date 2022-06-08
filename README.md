@@ -4,9 +4,9 @@
 
 ## Introduction
 
-A full real-time chat application with social authentication and dedicated chat API's/sockets.
+A full real-time chat application with social authentication (through Google and Facebook) and dedicated chat API's/sockets.
 
-Deployed on Netlify. 
+Continuous Deployment Pipeline set up from GitHub -> Netlify. 
 
 Visit: https://hermeschat.netlify.app/
 
