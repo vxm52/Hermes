@@ -14,7 +14,7 @@ Visit: https://hermeschat.netlify.app/
 
 
 ### 🌱 Learning: 
- - How to build a react chat app using [Chat Engine](https://chatengine.io)
+ - How to build a React chat app using [Chat Engine](https://chatengine.io)
  - Firebase
    - Firebase Social Login
    - Firebase Google Login
